@@ -53,3 +53,7 @@ The game saves high scores in memory during runtime. To persist scores between s
 Designed to be simple yet challenging for all ages.
 Enjoy testing your memory!!
 
+![واجهة اللعبة مع الأزرار المغلقة](path/to/closed_buttons_image.png)
+![واجهة اللعبة مع الأزرار المفتوحة](path/to/open_buttons_image.png)
+![واجهة اللعبة عند الفوز](path/to/victory_screen_image.png)
+
