@@ -53,7 +53,14 @@ The game saves high scores in memory during runtime. To persist scores between s
 Designed to be simple yet challenging for all ages.
 Enjoy testing your memory!!
 
-![واجهة اللعبة مع الأزرار المغلقة](path/to/closed_buttons_image.png)
-![واجهة اللعبة مع الأزرار المفتوحة](path/to/open_buttons_image.png)
-![واجهة اللعبة عند الفوز](path/to/victory_screen_image.png)
+### Screenshots
+
+1. **واجهة اللعبة مع الأزرار المغلقة**
+![Closed Buttons](images/closed_buttons.png)
+
+2. **واجهة اللعبة بعد فتح بعض الكروت**
+![Open Cards](images/open_buttons.png)
+
+3. **واجهة اللعبة عند الفوز**
+![Victory Screen](images/victory_screen.png)
 
