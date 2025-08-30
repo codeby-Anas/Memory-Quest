@@ -1,61 +1,49 @@
-# Memory Quest 🎯
+# 🎯 Memory Game - لعبة اختبار الذاكرة
 
-**Memory Quest** is a fun and challenging memory game designed to test and improve your memory skills. Flip cards, match pairs, and try to complete each level with the least attempts and fastest time!
+لعبة اختبار الذاكرة ممتعة ومناسبة لكل الأعمار، يمكنك اختيار مستوى الصعوبة ومنافسة نفسك لتحطيم أرقامك القياسية! 🏆
 
-## Features
+---
 
-- Three difficulty levels:  
-  - Easy (4x4)  
-  - Medium (6x6)  
-  - Hard (8x8)
-- Timer to track how long it takes to complete a level.
-- Count of attempts to finish each level.
-- High Score system to save the best time and fewest attempts for each level.
-- Restart button to replay the same level.
-- Colorful emoji cards for fun visual experience.
+## 📷 صور اللعبة
 
-## Requirements
+واجهة اختيار المستوى:
+
+![واجهة اختيار المستوى](images/level_select.png)
+
+اللعبة أثناء اللعب:
+
+![لعبة 4x4](images/game_4x4.png)
+![لعبة 6x6](images/game_6x6.png)
+![لعبة 8x8](images/game_8x8.png)
+
+---
+
+## 🕹️ طريقة اللعب
+
+1. افتح اللعبة عن طريق تشغيل ملف `game.py`.
+2. اختر مستوى الصعوبة:  
+   - سهل (4x4)  
+   - متوسط (6x6)  
+   - صعب (8x8)
+3. اضغط على المربعات للكشف عن الرموز ومحاولة مطابقة الأزواج المتشابهة.
+4. حاول إنهاء اللعبة بأقل عدد من المحاولات وفي أقل وقت ممكن لتحطيم الرقم القياسي! 🏅
+
+---
+
+## 💻 المتطلبات
 
 - Python 3.x
-- Tkinter (usually included with Python)
-- Works on Windows, MacOS, and Linux
+- مكتبة `tkinter` (مضمنة مع معظم توزيعات Python)
 
-## How to Run
+---
 
-1. Clone or download the repository.
-2. Make sure Python 3 is installed.
-3. Run the main script:
+## 🚀 تشغيل اللعبة
+
+في الطرفية (Terminal) أو الـ Command Prompt:
 
 ```bash
-python memory_quest.py
-Choose a difficulty level and start playing!
+python game.py
 
-Match all pairs to finish the level. Your attempts and time will be recorded.
-
-If you beat the previous best score, the High Score will update automatically.
-
-Controls
-
-Click on any card to reveal it.
-
-Match two identical cards to keep them revealed.
-
-If cards do not match, they will flip back automatically.
-
-Use the Restart button to replay the current level
-File Structure
-memory_quest.py      # Main Python script
-highscores.txt       # (Optional) Stores best scores per level
-README.md            # This file
-
-Notes
-The game saves high scores in memory during runtime. To persist scores between sessions, make sure highscores.txt exists or will be created.
-Designed to be simple yet challenging for all ages.
-Enjoy testing your memory!!
-
-![Closed Buttons](images/closed_buttons.png)
-![Open Cards](images/open_buttons.png)
-![Victory Screen](images/victory_screen.png)
 
 
 
