@@ -1,3 +1,10 @@
-images/closed_buttons.png
-images/open_buttons.png
-images/victory_screen.png
+MemoryGame/
+│
+├─ game.py
+├─ README.md
+└─ images/
+   ├─ level_select.png
+   ├─ game_4x4.png
+   ├─ game_6x6.png
+   └─ game_8x8.png
+
